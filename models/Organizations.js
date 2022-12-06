@@ -2,9 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 const { Organizations } = require('.');
 const sequelize = require('../config/connection');
 
-class Painting extends Model {}
+class Organizations extends Model {}
 
-Painting.init(
+Organizations.init(
   {
     id: {
       type: DataTypes.INTEGER,
