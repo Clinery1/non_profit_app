@@ -1,13 +1,9 @@
-const User = require('./User');
-const Organization = require('./Organizations');
+const express = require("express");
+const app = express();
+const port = 3001;
 
-
-User.hasMany(Organization, {
-  foreignKey: 'organization_id',
+app.get("/", (req, res) => {
+  res.send("Hello World, from express");
 });
 
-Organization.belongsTo(User, {
-  primaryKey: 'User_id',
-});
-
-module.exports = { User, Organization };
+app.listen(port, () => console.log(`Hello world ${port}!`));
