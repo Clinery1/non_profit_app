@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Homes 4 Homeless",
+    "website": "www.H4H.com",
+    "description": "Provide housing for the less fortunate based on proven need",
+    "funding_goal": "$300,000"
+  },
+  {
+    "title": "Veteran Support Line",
+    "website": "www.Vet-SL.com",
+    "description": "America supporting our veterans after they supported our way of life",
+    "funding_goal": "$50,000"
+  },
+  {
+    "title": "Kids Cancer Foundation",
+    "website": "www.KCFoundation.com",
+    "description": "Comforting our children across the nation in their greatest time of need while finding a cure",
+    "funding_goal": "$500,000"
+  },
+  {
+    "title": "Culture for the World",
+    "website": "www.culturefortheworld.com",
+    "description": "Breaking barriers through cultrual awareness and interaction programs and activities",
+    "funding_goal": "$100,000"
+  },
+  {
+    "title": "Arms of Peace",
+    "website": "www.AOP.com",
+    "description": "Supporting the efforts for a peaceful world by supporting those being oppressed",
+    "funding_goal": "$300,000"
+  }
+]
