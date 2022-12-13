@@ -1,6 +1,6 @@
-const { Model, DataTypes } = require('sequelize');
-const { Organizations } = require('.');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+//const { Organizations } = require('.');
+const sequelize = require("../config/connection");
 
 class Organizations extends Model {}
 
@@ -31,8 +31,8 @@ Organizations.init(
     organization_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'organization',
-        key: 'id',
+        model: "organization",
+        key: "id",
       },
     },
   },
@@ -40,7 +40,7 @@ Organizations.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'organization',
+    modelName: "organization",
   }
 );
 
