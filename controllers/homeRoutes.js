@@ -10,7 +10,7 @@ router.get("/", withAuth, async (req, res) => {
       order: [["name", "ASC"]],
     });
 
-    const users = userData.map((project) => project.get({ plain: true }));
+    const users = userData.map((nonProfit) => nonProfit.get({ plain: true }));
 
     res.render("homepage", {
       users,
@@ -28,6 +28,16 @@ router.get("/login", (req, res) => {
   }
 
   res.render("login");
+});
+
+router.get("/organizations", (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (!req.session.logged_in) {
+    res.redirect("/");
+    return;
+  }
+
+  res.render("organizations");
 });
 
 module.exports = router;
