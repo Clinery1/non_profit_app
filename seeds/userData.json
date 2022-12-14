@@ -2,26 +2,36 @@
   {
     "name": "Al",
     "email": "al@hotmail.com",
-    "password": "password12345"
+    "password": "password12345",
+    "admin": "true",
+    "user_id": "1"
   },
   {
     "name": "Brian",
     "email": "brian@gmail.com",
-    "password": "password12345"
+    "password": "password12345",
+    "admin": "false",
+    "user_id": "2"
   },
   {
     "name": "Chris",
     "email": "chris@aol.com",
-    "password": "password12345"
+    "password": "password12345",
+    "admin": "false",
+    "user_id": "3"
   },
   {
     "name": "Dani",
     "email": "dani@msn.com",
-    "password": "password12345"
+    "password": "password12345",
+    "admin": "false",
+    "user_id": "4"
   },
   {
     "name": "Erika",
     "email": "erika@yahoo.com",
-    "password": "password12345"
+    "password": "password12345",
+    "admin": "false",
+    "user_id": "5"
   }
 ]
