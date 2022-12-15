@@ -22,8 +22,9 @@ router.get("/", withAuth, async (req, res) => {
 });
 
 router.get("/login", (req, res) => {
-  if (req?.session?.logged_in) {
-    res.redirect("/");
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect("/organizations");
     return;
   }
 
@@ -36,7 +37,6 @@ router.get("/organizations", async (req, res) => {
     return;
   }
   const organizations = await Organization.findAll();
-  console.log(organizations[0].dataValues);
   res.render("organizations", { organizations });
 });
 
