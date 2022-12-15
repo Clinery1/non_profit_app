@@ -44,3 +44,9 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log("Now listening"));
 });
+
+
+app.get("/setcookie", (req, res) => {
+  res.cookie(`Cookie token name`, `encrypted cookie string Value`);
+  res.send("Cookie have been saved successfully");
+});
