@@ -33,6 +33,17 @@
         -admin function to approve users or organizations
         -link to a group fund share to disperse from our site
         -more duynamic interface
+        
+   # Screenshots
+   <img width="1420" alt="Screen Shot 2022-12-15 at 5 52 16 PM" src="https://user-images.githubusercontent.com/111668966/207984107-f5790e8c-201b-449b-878c-9283939243f8.png">
+
+![1087D20F-43A3-4E72-A387-AB591961E2DE_1_105_c](https://user-images.githubusercontent.com/111668966/207983303-9e50b5eb-1cfc-4bee-81dc-c1103dd9abc9.jpeg)
+
+# Links
+
+https://foundation-finder.herokuapp.com/login
+
+https://github.com/Clinery1/non_profit_app
 
 # Contributors
     The creators of this project are Kara Harvey, Matthew Hunter, and Chris Nguyen. Those desiring to contribute to this project may contact the original team directly, through the GitHub page, or on social media.
