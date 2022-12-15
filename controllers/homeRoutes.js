@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { User } = require("../models");
+const { User, Organization } = require("../models");
 const withAuth = require("../utils/auth");
 
 // Need conditional rendering to allow authorized users access to admin page
@@ -30,14 +30,14 @@ router.get("/login", (req, res) => {
   res.render("login");
 });
 
-router.get("/organizations", (req, res) => {
-  // If the user is already logged in, redirect the request to another route
+router.get("/organizations", async (req, res) => {
   if (!req.session.logged_in) {
     res.redirect("/");
     return;
   }
-
-  res.render("organizations");
+  const organizations = await Organization.findAll();
+  console.log(organizations[0].dataValues);
+  res.render("organizations", { organizations });
 });
 
 module.exports = router;
