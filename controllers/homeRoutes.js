@@ -37,7 +37,7 @@ router.get("/organizations", async (req, res) => {
     return;
   }
   const organizations = await Organization.findAll();
-  res.render("organizations", { organizations });
+  res.render("organizations", { organizations, logged_in: true });
 });
 
 module.exports = router;
