@@ -5,23 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find a Non-Profit!</title>
-  <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
+  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
+  <link rel="stylesheet" href="/css/tailwind.css">
 </head>
 
-<body>
-  <div class="flex-column justify-content-center">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
+<body class="min-h-screen min-w-screen bg-slate-400">
+  <div class="min-h-screen min-w-screen">
+    <header class="flex flex-column p-2">
+      <h1 class="text-6xl">
         <span role="img" aria-label="star">✨</span>
         <a href="/">Foundation Finder</a>
       </h1>
-      <nav>
+      <div></div>
+      <nav class="flex flex-column ml-4 p-2">
         {{#if logged_in}}
-        <a href="/organizations">organizations</a> |
-        <button class="no-button" id="logout">logout</button>
+        <a href="/organizations">Organizations</a>
+        <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
@@ -30,7 +31,7 @@
       {{{ body }}}
     </main>
     <footer>
-      
+
     </footer>
   </div>
 
