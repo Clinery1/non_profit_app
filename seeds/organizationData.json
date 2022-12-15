@@ -1,56 +1,56 @@
 [
   {
     "title": "Wikipedia",
-    "website": "www.wikipedia.org",
+    "website": "https://wikipedia.org",
     "description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
     "funding_goal": "$300,000", 
     "user_id": "2"
   },
   {
     "title": "Linux Foundation",
-    "website": "www.linuxfoundation.org",
+    "website": "https://linuxfoundation.org",
     "description": "Helping open technology projects build world class open source software, communities and companies.",
     "funding_goal": "$50,000", 
     "user_id": "2"
   },
   {
     "title": "Rust Foundation",
-    "website": "www.foundation.rust-lang.org",
+    "website": "https://foundation.rust-lang.org",
     "description": "The Rust Foundation is an independent non-profit organization to steward the Rust programming language and ecosystem, with a unique focus on supporting the set of maintainers that govern and develop the project.",
     "funding_goal": "$500,000", 
     "user_id": "2"
   },
   {
     "title": "Rebecca Erryn Moon Foundation, Inc",
-    "website": "www.facebook.com/people/Rebecca-Erryn-Moon-Foundation-Inc/100069069654276/",
+    "website": "https://facebook.com/people/Rebecca-Erryn-Moon-Foundation-Inc/100069069654276/",
     "description": "Assist Children Battling Childhood Cancer & their family with financial help.",
     "funding_goal": "$100,000", 
     "user_id": "3"
   },
   {
     "title": "Wounded warrior Foundation",
-    "website": "www.woundedwarriorproject.org/",
+    "website": "https://woundedwarriorproject.org/",
     "description": "Wounded Warrior Project is a nonprofit organization that helps veterans and active duty service members. Learn more about our programs or how you can support wounded warriors.",
     "funding_goal": "$300,000", 
     "user_id": "3"
   },
   {
     "title": "Yellowhammer Fund",
-    "website": "www.yellowhammerfund.org//",
+    "website": "https://yellowhammerfund.org/",
     "description": "The Yellowhammer Fund is a 501(c)3 abortion advocacy and reproductive justice organization serving Alabama, Mississippi, and the Deep South.",
     "funding_goal": "$800,000", 
     "user_id": "4"
   },
   {
     "title": "SONG - Southerners on a New Ground",
-    "website": "www.southernersonnewground.org//",
+    "website": "https://southernersonnewground.org/",
     "description": "SONG is a home for LGBTQ liberation across all lines of race, class, abilities, age, culture, gender, and sexuality in the South. ",
     "funding_goal": "$200,000", 
     "user_id": "4"
   },
   {
     "title": "Lifeline Fulton County",
-    "website": "www.lifelineanimal.org/county-animal-services//",
+    "website": "https://lifelineanimal.org/county-animal-services/",
     "description": "LifeLine Animal Project manages the Fulton and DeKalb County Animal Services shelters, two of the largest county shelters in metro Atlanta. In addition to overseeing shelter operations in both counties, LifeLine also provides Animal Enforcement and Field Services in Fulton County.",
     "funding_goal": "$750,000", 
     "user_id": "5"
