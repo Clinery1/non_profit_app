@@ -1,1 +1,9 @@
-organizations page
+
+{{#each organizations}}
+  <ul>
+    <li>Title: {{this.dataValues.title}}</li>
+    <li>Description: {{this.dataValues.description}}</li>
+    <li>Funding Goal: {{this.dataValues.funding_goal}}</li>
+    <li>Website: {{this.dataValues.website}}</li>
+  </ul>
+{{/each}}
